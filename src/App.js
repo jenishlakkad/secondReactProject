@@ -7,6 +7,7 @@ import { FC2 } from "./component/FC2";
 import { FC3 } from "./component/FC3";
 // import { FC4 } from './component/FC4';
 import FC4 from "./component/FC4";
+import FC5 from "./component/FC5";
 import img1 from "./asset/Image/AbdulKalam.jpg";
 import img2 from "./asset/Image/CharlesDarwin.jpg";
 import img3 from "./asset/Image/Issac-Newton.jpg";
@@ -31,6 +32,7 @@ import anime5 from "./asset/Image/4-Baki.jpg";
 function App() {
   return (
     <div>
+      {/* ############    COMPONENT:= 1   ############# */}
       <h1 className="text-center">List of Gods</h1>
       <div className="container-fluid App row row-cols-lg-5 row-cols-md-3 row-cols-sm-2 g-1">
         <FC3 image={god1} kingName={"MaharanaPratap"} />
@@ -40,6 +42,7 @@ function App() {
         <FC3 image={god5} kingName={"Vijayanagara"} />
       </div>
 
+      {/* ############    COMPONENT:= 2   ############# */}
       <h1 className="text-center">List of Scientist</h1>
       <div className="container-fluid App row row-cols-lg-5 row-cols-md-3 row-cols-sm-2 g-1">
         <FunctionalComponent
@@ -77,8 +80,9 @@ function App() {
         />
       </div>
 
+      {/* ############    COMPONENT:= 3   ############# */}
       <h1 className="text-center">List of Kings</h1>
-      <div className="container-fluid App row row-cols-lg-5 row-cols-md-3 row-cols-sm-2 g-1">
+      <div className="container-fluid App row row-cols-lg-5 row-cols-md-3 row-cols-sm-2 g-1 pt-3 pb-5">
         <FC2 image={king1} kingName={"MaharanaPratap"} />
         <FC2 image={king2} kingName={"ShivajiMaharaj"} />
         <FC2 image={king3} kingName={"PrithvirajChauhan"} />
@@ -86,13 +90,33 @@ function App() {
         <FC2 image={king5} kingName={"Vijayanagara"} />
       </div>
 
+      {/* ############    COMPONENT:= 4   ############# */}
       <h1 className="text-center">List of Anime</h1>
-      <div className="container-fluid App row row-cols-lg-5 row-cols-md-3 row-cols-sm-2 g-3">
+      <div className="container-fluid App row row-cols-lg-5 row-cols-md-3 row-cols-sm-2 g-3 pt-3 pb-5">
         <FC4 image={anime1} name={"Naruto"} />
         <FC4 image={anime2} name={"Goku"} />
         <FC4 image={anime3} name={"Saitama"} />
         <FC4 image={anime4} name={"Luffy"} />
         <FC4 image={anime5} name={"Baki"} />
+      </div>
+
+      {/* ############    COMPONENT:= 4(Copy)   ############# */}
+      <h1 className="text-center">WELLCOME TO THE WORLD OF LAKKAD</h1>
+      <div className=" container-fluid App row row-cols-lg-5 row-cols-md-3 row-cols-sm-2 g-3 pt-3 pb-5 bg">
+        <FC4 image={anime1} name={"Naruto"} />
+        <FC4 image={anime2} name={"Goku"} />
+        <FC4 image={anime3} name={"Saitama"} />
+        <FC4 image={anime4} name={"Luffy"} />
+        <FC4 image={anime5} name={"Baki"} />
+      </div>
+
+      {/* ############    COMPONENT:= 5   ############# */}
+      <div className="container-fluid  bg">
+      <h1 className="text-center">Naruto</h1>
+      <div className="App row row-cols-lg-5 row-cols-md-3 row-cols-sm-2 g-3 pt-3 pb-5 ">
+        
+      </div>
+
       </div>
     </div>
   );
