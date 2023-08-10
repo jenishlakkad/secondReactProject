@@ -1,0 +1,8 @@
+.mainDivFC4 > div {
+    color: brown;
+    background-color: black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.mainDivFC4 > div:hover{
+    scale: 1.025;
+}

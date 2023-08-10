@@ -1,0 +1,16 @@
+/* *{
+    border: 1px solid red;
+} */
+.mainDiv{
+    text-align: center;
+}
+.imageDiv{
+    margin: 0px auto;
+    width: 150px ;
+    height: 150px;
+}
+.imageDiv > img{
+    width: 100%;
+    height: 100%;
+}
+
