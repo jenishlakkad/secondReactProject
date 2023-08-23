@@ -28,22 +28,23 @@ import anime2 from "./asset/Image/4-Goku.jpg";
 import anime3 from "./asset/Image/4-Saitama.jpg";
 import anime4 from "./asset/Image/4-Luffy.jpg";
 import anime5 from "./asset/Image/4-Baki.jpg";
+import Word from "./component/Word";
 
 function App() {
   return (
     <div>
       {/* ############    COMPONENT:= 1   ############# */}
-      <h1 className="text-center">List of Gods</h1>
+      {/* <h1 className="text-center">List of Gods</h1>
       <div className="container-fluid App row row-cols-lg-5 row-cols-md-3 row-cols-sm-2 g-1">
         <FC3 image={god1} kingName={"MaharanaPratap"} />
         <FC3 image={god2} kingName={"ShivajiMaharaj"} />
         <FC3 image={god3} kingName={"PrithvirajChauhan"} />
         <FC3 image={god4} kingName={"AshokaTheGreat"} />
         <FC3 image={god5} kingName={"Vijayanagara"} />
-      </div>
+      </div> */}
 
       {/* ############    COMPONENT:= 2   ############# */}
-      <h1 className="text-center">List of Scientist</h1>
+      {/* <h1 className="text-center">List of Scientist</h1>
       <div className="container-fluid App row row-cols-lg-5 row-cols-md-3 row-cols-sm-2 g-1">
         <FunctionalComponent
           details={
@@ -78,48 +79,47 @@ function App() {
           name={"StephenHawking"}
           image={img5}
         />
-      </div>
+      </div> */}
 
       {/* ############    COMPONENT:= 3   ############# */}
-      <h1 className="text-center">List of Kings</h1>
+      {/* <h1 className="text-center">List of Kings</h1>
       <div className="container-fluid App row row-cols-lg-5 row-cols-md-3 row-cols-sm-2 g-1 pt-3 pb-5">
         <FC2 image={king1} kingName={"MaharanaPratap"} />
         <FC2 image={king2} kingName={"ShivajiMaharaj"} />
         <FC2 image={king3} kingName={"PrithvirajChauhan"} />
         <FC2 image={king4} kingName={"AshokaTheGreat"} />
         <FC2 image={king5} kingName={"Vijayanagara"} />
-      </div>
+      </div> */}
 
       {/* ############    COMPONENT:= 4   ############# */}
-      <h1 className="text-center">List of Anime</h1>
+      {/* <h1 className="text-center">List of Anime</h1>
       <div className="container-fluid App row row-cols-lg-5 row-cols-md-3 row-cols-sm-2 g-3 pt-3 pb-5">
         <FC4 image={anime1} name={"Naruto"} />
         <FC4 image={anime2} name={"Goku"} />
         <FC4 image={anime3} name={"Saitama"} />
         <FC4 image={anime4} name={"Luffy"} />
         <FC4 image={anime5} name={"Baki"} />
-      </div>
+      </div> */}
 
       {/* ############    COMPONENT:= 4(Copy)   ############# */}
-      <h1 className="text-center">WELLCOME TO THE WORLD OF LAKKAD</h1>
-      <div className=" container-fluid App row row-cols-lg-5 row-cols-md-3 row-cols-sm-2 g-3 pt-3 pb-5 bg">
+      {/* <h1 className="text-center">WELLCOME TO THE WORLD OF LAKKAD</h1>
+      <div className=" container-fluid App row row-cols-lg-5 row-cols-md-3 row-cols-sm-2 g-3 pt-3 pb-5 ">
         <FC4 image={anime1} name={"Naruto"} />
         <FC4 image={anime2} name={"Goku"} />
         <FC4 image={anime3} name={"Saitama"} />
         <FC4 image={anime4} name={"Luffy"} />
         <FC4 image={anime5} name={"Baki"} />
-      </div>
+      </div> */}
 
       {/* ############    COMPONENT:= 5   ############# */}
-      <div className="container-fluid  bg">
-      <h1 className="text-center">Naruto</h1>
-      <div className="App row row-cols-lg-5 row-cols-md-3 row-cols-sm-2 g-3 pt-3 pb-5 ">
-        
-      </div>
-
-      </div>
+      {/* <div className="container-fluid  bg">
+        <h1 className="text-center">Naruto</h1>
+        <div className="App row row-cols-lg-5 row-cols-md-3 row-cols-sm-2 g-3 pt-3 pb-5 "></div>
+      </div> */}
+      <Word/>
     </div>
+
   );
-}  
+}
 
 export default App;
